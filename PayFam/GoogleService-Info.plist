@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>571589231473-e0rvsfss162jj3ebj3950vgsuognbji7.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.571589231473-e0rvsfss162jj3ebj3950vgsuognbji7</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCaPQr03npuXkoLXKdnYWqxpZSvXuquCSk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>571589231473</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.bidopalabs.PayFam</string>
+	<key>PROJECT_ID</key>
+	<string>payfam-f5534</string>
+	<key>STORAGE_BUCKET</key>
+	<string>payfam-f5534.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:571589231473:ios:ac613b8331c57e2010ecd0</string>
+</dict>
+</plist>

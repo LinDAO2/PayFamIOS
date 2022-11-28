@@ -11,6 +11,23 @@
 		CE2A8F7929346DE000338A60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A8F7829346DE000338A60 /* ContentView.swift */; };
 		CE2A8F7B29346DE000338A60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2A8F7A29346DE000338A60 /* Assets.xcassets */; };
 		CE2A8F7E29346DE000338A60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2A8F7D29346DE000338A60 /* Preview Assets.xcassets */; };
+		CE2A8F87293474EB00338A60 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2A8F86293474EB00338A60 /* Launch Screen.storyboard */; };
+		CE2A8F8B2934793C00338A60 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A8F8A2934793C00338A60 /* MainView.swift */; };
+		CE2A8F8D2934796100338A60 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A8F8C2934796100338A60 /* SideMenuView.swift */; };
+		CE2A8F8F293480E300338A60 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A8F8E293480E300338A60 /* Extensions.swift */; };
+		CE2A8F92293486AD00338A60 /* SwiftUIFontIcon in Frameworks */ = {isa = PBXBuildFile; productRef = CE2A8F91293486AD00338A60 /* SwiftUIFontIcon */; settings = {ATTRIBUTES = (Required, ); }; };
+		CE2A8F952934875300338A60 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2A8F942934875300338A60 /* SwiftUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		CE2A8F972934909400338A60 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A8F962934909400338A60 /* MainTabView.swift */; };
+		CE2A8F9A29349F8100338A60 /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A8F9929349F8100338A60 /* HomeTabView.swift */; };
+		CE2A8F9D2934A3BA00338A60 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CE2A8F9C2934A3BA00338A60 /* FirebaseAuth */; };
+		CE2A8F9F2934A3BA00338A60 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = CE2A8F9E2934A3BA00338A60 /* FirebaseFirestore */; };
+		CE2A8FA12934A57600338A60 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE2A8FA02934A57600338A60 /* GoogleService-Info.plist */; };
+		CE2A8FA42934B45B00338A60 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A8FA32934B45B00338A60 /* LoginView.swift */; };
+		CE2A8FA82934B7E400338A60 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A8FA72934B7E400338A60 /* LoginViewModel.swift */; };
+		CE2A8FAA2934BA3700338A60 /* VerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A8FA92934BA3700338A60 /* VerificationView.swift */; };
+		CE2A8FAD2934D24800338A60 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A8FAC2934D24800338A60 /* Countries.swift */; };
+		CE2A8FB02934F10C00338A60 /* Numpad.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A8FAF2934F10C00338A60 /* Numpad.swift */; };
+		CE2A8FB32934FE5F00338A60 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A8FB22934FE5F00338A60 /* AlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +36,21 @@
 		CE2A8F7829346DE000338A60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE2A8F7A29346DE000338A60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE2A8F7D29346DE000338A60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE2A8F86293474EB00338A60 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		CE2A8F8A2934793C00338A60 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CE2A8F8C2934796100338A60 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		CE2A8F8E293480E300338A60 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CE2A8F942934875300338A60 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		CE2A8F962934909400338A60 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		CE2A8F9929349F8100338A60 /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
+		CE2A8FA02934A57600338A60 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CE2A8FA32934B45B00338A60 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CE2A8FA72934B7E400338A60 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		CE2A8FA92934BA3700338A60 /* VerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationView.swift; sourceTree = "<group>"; };
+		CE2A8FAC2934D24800338A60 /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		CE2A8FAF2934F10C00338A60 /* Numpad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numpad.swift; sourceTree = "<group>"; };
+		CE2A8FB12934F64000338A60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CE2A8FB22934FE5F00338A60 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +58,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2A8F952934875300338A60 /* SwiftUI.framework in Frameworks */,
+				CE2A8F9F2934A3BA00338A60 /* FirebaseFirestore in Frameworks */,
+				CE2A8F9D2934A3BA00338A60 /* FirebaseAuth in Frameworks */,
+				CE2A8F92293486AD00338A60 /* SwiftUIFontIcon in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +73,7 @@
 			children = (
 				CE2A8F7529346DE000338A60 /* PayFam */,
 				CE2A8F7429346DE000338A60 /* Products */,
+				CE2A8F932934875300338A60 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,9 +88,16 @@
 		CE2A8F7529346DE000338A60 /* PayFam */ = {
 			isa = PBXGroup;
 			children = (
+				CE2A8FB12934F64000338A60 /* Info.plist */,
+				CE2A8FAB2934D21B00338A60 /* Models */,
+				CE2A8FA52934B7B600338A60 /* ViewModels */,
+				CE2A8F88293478F400338A60 /* Views */,
 				CE2A8F7629346DE000338A60 /* PayFamApp.swift */,
+				CE2A8F8E293480E300338A60 /* Extensions.swift */,
 				CE2A8F7829346DE000338A60 /* ContentView.swift */,
+				CE2A8F86293474EB00338A60 /* Launch Screen.storyboard */,
 				CE2A8F7A29346DE000338A60 /* Assets.xcassets */,
+				CE2A8FA02934A57600338A60 /* GoogleService-Info.plist */,
 				CE2A8F7C29346DE000338A60 /* Preview Content */,
 			);
 			path = PayFam;
@@ -67,6 +111,85 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		CE2A8F88293478F400338A60 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE2A8FAE2934F0ED00338A60 /* Components */,
+				CE2A8FA22934B44500338A60 /* Session */,
+				CE2A8F892934791D00338A60 /* Main */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE2A8F892934791D00338A60 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CE2A8F9829349F6200338A60 /* Tabs */,
+				CE2A8F8A2934793C00338A60 /* MainView.swift */,
+				CE2A8F8C2934796100338A60 /* SideMenuView.swift */,
+				CE2A8F962934909400338A60 /* MainTabView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CE2A8F932934875300338A60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE2A8F942934875300338A60 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE2A8F9829349F6200338A60 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				CE2A8F9929349F8100338A60 /* HomeTabView.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		CE2A8FA22934B44500338A60 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				CE2A8FA32934B45B00338A60 /* LoginView.swift */,
+				CE2A8FA92934BA3700338A60 /* VerificationView.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		CE2A8FA52934B7B600338A60 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CE2A8FA62934B7C700338A60 /* Session */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CE2A8FA62934B7C700338A60 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				CE2A8FA72934B7E400338A60 /* LoginViewModel.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		CE2A8FAB2934D21B00338A60 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE2A8FAC2934D24800338A60 /* Countries.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE2A8FAE2934F0ED00338A60 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CE2A8FAF2934F10C00338A60 /* Numpad.swift */,
+				CE2A8FB22934FE5F00338A60 /* AlertView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE2A8F8129346DE000338A60 /* Build configuration list for PBXNativeTarget "PayFam" */;
 			buildPhases = (
+				7E3C2067D0E73B922EE2619E /* [CP] Check Pods Manifest.lock */,
 				CE2A8F6F29346DE000338A60 /* Sources */,
 				CE2A8F7029346DE000338A60 /* Frameworks */,
 				CE2A8F7129346DE000338A60 /* Resources */,
@@ -83,6 +207,11 @@
 			dependencies = (
 			);
 			name = PayFam;
+			packageProductDependencies = (
+				CE2A8F91293486AD00338A60 /* SwiftUIFontIcon */,
+				CE2A8F9C2934A3BA00338A60 /* FirebaseAuth */,
+				CE2A8F9E2934A3BA00338A60 /* FirebaseFirestore */,
+			);
 			productName = PayFam;
 			productReference = CE2A8F7329346DE000338A60 /* PayFam.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +240,10 @@
 				Base,
 			);
 			mainGroup = CE2A8F6A29346DE000338A60;
+			packageReferences = (
+				CE2A8F90293486AD00338A60 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */,
+				CE2A8F9B2934A3BA00338A60 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = CE2A8F7429346DE000338A60 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +258,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2A8F87293474EB00338A60 /* Launch Screen.storyboard in Resources */,
+				CE2A8FA12934A57600338A60 /* GoogleService-Info.plist in Resources */,
 				CE2A8F7E29346DE000338A60 /* Preview Assets.xcassets in Resources */,
 				CE2A8F7B29346DE000338A60 /* Assets.xcassets in Resources */,
 			);
@@ -132,13 +267,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7E3C2067D0E73B922EE2619E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayFam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE2A8F6F29346DE000338A60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2A8FAD2934D24800338A60 /* Countries.swift in Sources */,
+				CE2A8F8F293480E300338A60 /* Extensions.swift in Sources */,
 				CE2A8F7929346DE000338A60 /* ContentView.swift in Sources */,
+				CE2A8F8B2934793C00338A60 /* MainView.swift in Sources */,
+				CE2A8FB02934F10C00338A60 /* Numpad.swift in Sources */,
+				CE2A8F8D2934796100338A60 /* SideMenuView.swift in Sources */,
+				CE2A8F9A29349F8100338A60 /* HomeTabView.swift in Sources */,
+				CE2A8FAA2934BA3700338A60 /* VerificationView.swift in Sources */,
+				CE2A8FB32934FE5F00338A60 /* AlertView.swift in Sources */,
 				CE2A8F7729346DE000338A60 /* PayFamApp.swift in Sources */,
+				CE2A8FA42934B45B00338A60 /* LoginView.swift in Sources */,
+				CE2A8F972934909400338A60 /* MainTabView.swift in Sources */,
+				CE2A8FA82934B7E400338A60 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,15 +436,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PayFam/Preview Content\"";
 				DEVELOPMENT_TEAM = P6KSPS7Z92;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PayFam/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PayFam;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -293,15 +470,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PayFam/Preview Content\"";
 				DEVELOPMENT_TEAM = P6KSPS7Z92;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PayFam/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PayFam;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -339,6 +521,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE2A8F90293486AD00338A60 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/huybuidac/SwiftUIFontIcon";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		CE2A8F9B2934A3BA00338A60 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE2A8F91293486AD00338A60 /* SwiftUIFontIcon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE2A8F90293486AD00338A60 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */;
+			productName = SwiftUIFontIcon;
+		};
+		CE2A8F9C2934A3BA00338A60 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE2A8F9B2934A3BA00338A60 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		CE2A8F9E2934A3BA00338A60 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE2A8F9B2934A3BA00338A60 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE2A8F6B29346DE000338A60 /* Project object */;
 }
