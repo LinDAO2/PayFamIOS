@@ -8,13 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        NavigationStack {
-            LoginView()
-                .navigationBarHidden(true)
-                .navigationBarBackButtonHidden(true)
-        }
+     
+            MainView()
+         
+                
+    
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

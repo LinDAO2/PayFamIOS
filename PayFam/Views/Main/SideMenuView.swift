@@ -53,7 +53,7 @@ struct SideMenuView: View {
             .frame(maxWidth:.infinity,alignment: .leading)
             
         }
-        .frame(maxWidth: .infinity,maxHeight: .infinity,alignment: .top).background(showSideMenu ? Color.primaryBrandColor.opacity(0.6) : .white)
+        .frame(maxWidth: .infinity,maxHeight: .infinity,alignment: .top).background(showSideMenu ? Color.primaryBrandColor.opacity(0.6) : .systemBacground)
         
     }
     
@@ -65,10 +65,12 @@ struct SideMenuView: View {
         )-> some View{
         Button {
             if title == "Logout"{
+                showSideMenu.toggle()
                 
             }else{
                 withAnimation {
                     currentTab = title
+                    showSideMenu.toggle()
                 }
             }
           

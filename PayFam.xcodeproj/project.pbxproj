@@ -19,8 +19,6 @@
 		CE2A8F952934875300338A60 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2A8F942934875300338A60 /* SwiftUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		CE2A8F972934909400338A60 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A8F962934909400338A60 /* MainTabView.swift */; };
 		CE2A8F9A29349F8100338A60 /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A8F9929349F8100338A60 /* HomeTabView.swift */; };
-		CE2A8F9D2934A3BA00338A60 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CE2A8F9C2934A3BA00338A60 /* FirebaseAuth */; };
-		CE2A8F9F2934A3BA00338A60 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = CE2A8F9E2934A3BA00338A60 /* FirebaseFirestore */; };
 		CE2A8FA12934A57600338A60 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE2A8FA02934A57600338A60 /* GoogleService-Info.plist */; };
 		CE2A8FA42934B45B00338A60 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A8FA32934B45B00338A60 /* LoginView.swift */; };
 		CE2A8FA82934B7E400338A60 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A8FA72934B7E400338A60 /* LoginViewModel.swift */; };
@@ -28,6 +26,28 @@
 		CE2A8FAD2934D24800338A60 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A8FAC2934D24800338A60 /* Countries.swift */; };
 		CE2A8FB02934F10C00338A60 /* Numpad.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A8FAF2934F10C00338A60 /* Numpad.swift */; };
 		CE2A8FB32934FE5F00338A60 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A8FB22934FE5F00338A60 /* AlertView.swift */; };
+		CE2A8FB62935615700338A60 /* HomeBalanceSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A8FB52935615700338A60 /* HomeBalanceSubView.swift */; };
+		CE2A8FB8293561A900338A60 /* HomeCarouselSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A8FB7293561A900338A60 /* HomeCarouselSubView.swift */; };
+		CE2A8FBA2935620200338A60 /* HomeActionsSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A8FB92935620200338A60 /* HomeActionsSubView.swift */; };
+		CE2A8FBC2935624500338A60 /* HomePayFamAgain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A8FBB2935624500338A60 /* HomePayFamAgain.swift */; };
+		CE2A8FBE2935628C00338A60 /* HomeTransactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A8FBD2935628C00338A60 /* HomeTransactions.swift */; };
+		CE2A8FC1293582E600338A60 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A8FC0293582E600338A60 /* ProfileModel.swift */; };
+		CE2A8FC4293583D600338A60 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A8FC3293583D600338A60 /* ProfileViewModel.swift */; };
+		CE2A8FC62935851500338A60 /* Contants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A8FC52935851500338A60 /* Contants.swift */; };
+		CE93FF3129363CC3007DCCE3 /* SendMoneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE93FF3029363CC3007DCCE3 /* SendMoneyView.swift */; };
+		CE93FF3329363E67007DCCE3 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE93FF3229363E67007DCCE3 /* TransactionModel.swift */; };
+		CE93FF36293651E6007DCCE3 /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = CE93FF35293651E6007DCCE3 /* iPhoneNumberField */; };
+		CE93FF3929366366007DCCE3 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CE93FF3829366366007DCCE3 /* FirebaseAuth */; };
+		CE93FF3B29366366007DCCE3 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = CE93FF3A29366366007DCCE3 /* FirebaseAuthCombine-Community */; };
+		CE93FF3D29366366007DCCE3 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = CE93FF3C29366366007DCCE3 /* FirebaseFirestore */; };
+		CE93FF3F29366366007DCCE3 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = CE93FF3E29366366007DCCE3 /* FirebaseFirestoreCombine-Community */; };
+		CE93FF4129366366007DCCE3 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CE93FF4029366366007DCCE3 /* FirebaseFirestoreSwift */; };
+		CE93FF4329366CE6007DCCE3 /* TransactionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE93FF4229366CE6007DCCE3 /* TransactionListView.swift */; };
+		CEB6ECC92937EC9D007F432D /* WalletButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB6ECC82937EC9D007F432D /* WalletButtonView.swift */; };
+		CED3DD132939452C002696A5 /* WalletConnectSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CED3DD122939452C002696A5 /* WalletConnectSwift */; };
+		CED3DD15293945BD002696A5 /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED3DD14293945BD002696A5 /* Wallet.swift */; };
+		CED3DD182939462D002696A5 /* Web3InteractionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED3DD172939462D002696A5 /* Web3InteractionViewModel.swift */; };
+		CED3DD1A2939467E002696A5 /* WalletConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED3DD192939467E002696A5 /* WalletConnect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +71,21 @@
 		CE2A8FAF2934F10C00338A60 /* Numpad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numpad.swift; sourceTree = "<group>"; };
 		CE2A8FB12934F64000338A60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		CE2A8FB22934FE5F00338A60 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		CE2A8FB52935615700338A60 /* HomeBalanceSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBalanceSubView.swift; sourceTree = "<group>"; };
+		CE2A8FB7293561A900338A60 /* HomeCarouselSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCarouselSubView.swift; sourceTree = "<group>"; };
+		CE2A8FB92935620200338A60 /* HomeActionsSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeActionsSubView.swift; sourceTree = "<group>"; };
+		CE2A8FBB2935624500338A60 /* HomePayFamAgain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePayFamAgain.swift; sourceTree = "<group>"; };
+		CE2A8FBD2935628C00338A60 /* HomeTransactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTransactions.swift; sourceTree = "<group>"; };
+		CE2A8FC0293582E600338A60 /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		CE2A8FC3293583D600338A60 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		CE2A8FC52935851500338A60 /* Contants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contants.swift; sourceTree = "<group>"; };
+		CE93FF3029363CC3007DCCE3 /* SendMoneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMoneyView.swift; sourceTree = "<group>"; };
+		CE93FF3229363E67007DCCE3 /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		CE93FF4229366CE6007DCCE3 /* TransactionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListView.swift; sourceTree = "<group>"; };
+		CEB6ECC82937EC9D007F432D /* WalletButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletButtonView.swift; sourceTree = "<group>"; };
+		CED3DD14293945BD002696A5 /* Wallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
+		CED3DD172939462D002696A5 /* Web3InteractionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web3InteractionViewModel.swift; sourceTree = "<group>"; };
+		CED3DD192939467E002696A5 /* WalletConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletConnect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +93,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED3DD132939452C002696A5 /* WalletConnectSwift in Frameworks */,
 				CE2A8F952934875300338A60 /* SwiftUI.framework in Frameworks */,
-				CE2A8F9F2934A3BA00338A60 /* FirebaseFirestore in Frameworks */,
-				CE2A8F9D2934A3BA00338A60 /* FirebaseAuth in Frameworks */,
 				CE2A8F92293486AD00338A60 /* SwiftUIFontIcon in Frameworks */,
+				CE93FF36293651E6007DCCE3 /* iPhoneNumberField in Frameworks */,
+				CE93FF3929366366007DCCE3 /* FirebaseAuth in Frameworks */,
+				CE93FF3B29366366007DCCE3 /* FirebaseAuthCombine-Community in Frameworks */,
+				CE93FF3D29366366007DCCE3 /* FirebaseFirestore in Frameworks */,
+				CE93FF3F29366366007DCCE3 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				CE93FF4129366366007DCCE3 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +133,7 @@
 				CE2A8FA52934B7B600338A60 /* ViewModels */,
 				CE2A8F88293478F400338A60 /* Views */,
 				CE2A8F7629346DE000338A60 /* PayFamApp.swift */,
+				CE2A8FC52935851500338A60 /* Contants.swift */,
 				CE2A8F8E293480E300338A60 /* Extensions.swift */,
 				CE2A8F7829346DE000338A60 /* ContentView.swift */,
 				CE2A8F86293474EB00338A60 /* Launch Screen.storyboard */,
@@ -117,6 +158,7 @@
 				CE2A8FAE2934F0ED00338A60 /* Components */,
 				CE2A8FA22934B44500338A60 /* Session */,
 				CE2A8F892934791D00338A60 /* Main */,
+				CE93FF3029363CC3007DCCE3 /* SendMoneyView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -160,6 +202,8 @@
 		CE2A8FA52934B7B600338A60 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				CED3DD1629394606002696A5 /* Web3 */,
+				CE2A8FC2293583B600338A60 /* Profile */,
 				CE2A8FA62934B7C700338A60 /* Session */,
 			);
 			path = ViewModels;
@@ -177,6 +221,9 @@
 			isa = PBXGroup;
 			children = (
 				CE2A8FAC2934D24800338A60 /* Countries.swift */,
+				CE2A8FC0293582E600338A60 /* ProfileModel.swift */,
+				CE93FF3229363E67007DCCE3 /* TransactionModel.swift */,
+				CED3DD14293945BD002696A5 /* Wallet.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -184,10 +231,58 @@
 		CE2A8FAE2934F0ED00338A60 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				CEB6ECC72937EC89007F432D /* Web3 */,
+				CE2A8FBF2935803100338A60 /* Transactions */,
+				CE2A8FB42935613500338A60 /* Home */,
 				CE2A8FAF2934F10C00338A60 /* Numpad.swift */,
 				CE2A8FB22934FE5F00338A60 /* AlertView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		CE2A8FB42935613500338A60 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CE2A8FB52935615700338A60 /* HomeBalanceSubView.swift */,
+				CE2A8FB7293561A900338A60 /* HomeCarouselSubView.swift */,
+				CE2A8FB92935620200338A60 /* HomeActionsSubView.swift */,
+				CE2A8FBB2935624500338A60 /* HomePayFamAgain.swift */,
+				CE2A8FBD2935628C00338A60 /* HomeTransactions.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CE2A8FBF2935803100338A60 /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				CE93FF4229366CE6007DCCE3 /* TransactionListView.swift */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		CE2A8FC2293583B600338A60 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CE2A8FC3293583D600338A60 /* ProfileViewModel.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		CEB6ECC72937EC89007F432D /* Web3 */ = {
+			isa = PBXGroup;
+			children = (
+				CEB6ECC82937EC9D007F432D /* WalletButtonView.swift */,
+			);
+			path = Web3;
+			sourceTree = "<group>";
+		};
+		CED3DD1629394606002696A5 /* Web3 */ = {
+			isa = PBXGroup;
+			children = (
+				CED3DD172939462D002696A5 /* Web3InteractionViewModel.swift */,
+				CED3DD192939467E002696A5 /* WalletConnect.swift */,
+			);
+			path = Web3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,8 +304,13 @@
 			name = PayFam;
 			packageProductDependencies = (
 				CE2A8F91293486AD00338A60 /* SwiftUIFontIcon */,
-				CE2A8F9C2934A3BA00338A60 /* FirebaseAuth */,
-				CE2A8F9E2934A3BA00338A60 /* FirebaseFirestore */,
+				CE93FF35293651E6007DCCE3 /* iPhoneNumberField */,
+				CE93FF3829366366007DCCE3 /* FirebaseAuth */,
+				CE93FF3A29366366007DCCE3 /* FirebaseAuthCombine-Community */,
+				CE93FF3C29366366007DCCE3 /* FirebaseFirestore */,
+				CE93FF3E29366366007DCCE3 /* FirebaseFirestoreCombine-Community */,
+				CE93FF4029366366007DCCE3 /* FirebaseFirestoreSwift */,
+				CED3DD122939452C002696A5 /* WalletConnectSwift */,
 			);
 			productName = PayFam;
 			productReference = CE2A8F7329346DE000338A60 /* PayFam.app */;
@@ -242,7 +342,9 @@
 			mainGroup = CE2A8F6A29346DE000338A60;
 			packageReferences = (
 				CE2A8F90293486AD00338A60 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */,
-				CE2A8F9B2934A3BA00338A60 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				CE93FF34293651E6007DCCE3 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
+				CE93FF3729366366007DCCE3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				CED3DD112939452C002696A5 /* XCRemoteSwiftPackageReference "WalletConnectSwift" */,
 			);
 			productRefGroup = CE2A8F7429346DE000338A60 /* Products */;
 			projectDirPath = "";
@@ -298,17 +400,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED3DD15293945BD002696A5 /* Wallet.swift in Sources */,
 				CE2A8FAD2934D24800338A60 /* Countries.swift in Sources */,
 				CE2A8F8F293480E300338A60 /* Extensions.swift in Sources */,
+				CE2A8FBA2935620200338A60 /* HomeActionsSubView.swift in Sources */,
 				CE2A8F7929346DE000338A60 /* ContentView.swift in Sources */,
+				CEB6ECC92937EC9D007F432D /* WalletButtonView.swift in Sources */,
+				CE93FF3329363E67007DCCE3 /* TransactionModel.swift in Sources */,
+				CE2A8FB8293561A900338A60 /* HomeCarouselSubView.swift in Sources */,
+				CE2A8FB62935615700338A60 /* HomeBalanceSubView.swift in Sources */,
 				CE2A8F8B2934793C00338A60 /* MainView.swift in Sources */,
 				CE2A8FB02934F10C00338A60 /* Numpad.swift in Sources */,
+				CE2A8FBC2935624500338A60 /* HomePayFamAgain.swift in Sources */,
+				CE2A8FC1293582E600338A60 /* ProfileModel.swift in Sources */,
+				CE2A8FBE2935628C00338A60 /* HomeTransactions.swift in Sources */,
 				CE2A8F8D2934796100338A60 /* SideMenuView.swift in Sources */,
 				CE2A8F9A29349F8100338A60 /* HomeTabView.swift in Sources */,
 				CE2A8FAA2934BA3700338A60 /* VerificationView.swift in Sources */,
+				CED3DD1A2939467E002696A5 /* WalletConnect.swift in Sources */,
+				CE2A8FC4293583D600338A60 /* ProfileViewModel.swift in Sources */,
 				CE2A8FB32934FE5F00338A60 /* AlertView.swift in Sources */,
+				CE93FF4329366CE6007DCCE3 /* TransactionListView.swift in Sources */,
 				CE2A8F7729346DE000338A60 /* PayFamApp.swift in Sources */,
+				CE93FF3129363CC3007DCCE3 /* SendMoneyView.swift in Sources */,
+				CE2A8FC62935851500338A60 /* Contants.swift in Sources */,
 				CE2A8FA42934B45B00338A60 /* LoginView.swift in Sources */,
+				CED3DD182939462D002696A5 /* Web3InteractionViewModel.swift in Sources */,
 				CE2A8F972934909400338A60 /* MainTabView.swift in Sources */,
 				CE2A8FA82934B7E400338A60 /* LoginViewModel.swift in Sources */,
 			);
@@ -531,12 +648,28 @@
 				kind = branch;
 			};
 		};
-		CE2A8F9B2934A3BA00338A60 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+		CE93FF34293651E6007DCCE3 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MojtabaHs/iPhoneNumberField.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+		CE93FF3729366366007DCCE3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 9.0.0;
+			};
+		};
+		CED3DD112939452C002696A5 /* XCRemoteSwiftPackageReference "WalletConnectSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/penachett/WalletConnectSwift";
+			requirement = {
+				branch = master;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -547,15 +680,40 @@
 			package = CE2A8F90293486AD00338A60 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */;
 			productName = SwiftUIFontIcon;
 		};
-		CE2A8F9C2934A3BA00338A60 /* FirebaseAuth */ = {
+		CE93FF35293651E6007DCCE3 /* iPhoneNumberField */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CE2A8F9B2934A3BA00338A60 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = CE93FF34293651E6007DCCE3 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */;
+			productName = iPhoneNumberField;
+		};
+		CE93FF3829366366007DCCE3 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE93FF3729366366007DCCE3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
 		};
-		CE2A8F9E2934A3BA00338A60 /* FirebaseFirestore */ = {
+		CE93FF3A29366366007DCCE3 /* FirebaseAuthCombine-Community */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CE2A8F9B2934A3BA00338A60 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = CE93FF3729366366007DCCE3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		CE93FF3C29366366007DCCE3 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE93FF3729366366007DCCE3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
+		};
+		CE93FF3E29366366007DCCE3 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE93FF3729366366007DCCE3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		CE93FF4029366366007DCCE3 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE93FF3729366366007DCCE3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		CED3DD122939452C002696A5 /* WalletConnectSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CED3DD112939452C002696A5 /* XCRemoteSwiftPackageReference "WalletConnectSwift" */;
+			productName = WalletConnectSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

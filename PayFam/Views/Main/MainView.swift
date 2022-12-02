@@ -13,7 +13,7 @@ struct MainView: View {
     
     @State var showSideMenu : Bool = false
     
-    //Hiding native tab bar
+    @StateObject var profileViewModel : ProfileViewModel =  ProfileViewModel()   //Hiding native tab bar
     
     init() {
     
@@ -21,17 +21,20 @@ struct MainView: View {
     }
     
     var body: some View {
-        ZStack{
-            
-            SideMenuView(currentTab: $currentTab ,showSideMenu: $showSideMenu)
+        NavigationStack{
+            ZStack{
                 
-            
-            MainTabView(currentTab: $currentTab,showSideMenu: $showSideMenu)
-                .cornerRadius(showSideMenu ? 25 : 0)
-                .rotation3DEffect(.init(degrees: showSideMenu ? -15 : 0), axis : (x : 0 , y : 1 , z : 0 ), anchor: .trailing)
-                .offset(x: showSideMenu ? getScreenBounds().width / 2 : 0)
-                .ignoresSafeArea()
+                SideMenuView(currentTab: $currentTab ,showSideMenu: $showSideMenu)
+                    
+                
+                MainTabView(currentTab: $currentTab,showSideMenu: $showSideMenu)
+                    .cornerRadius(showSideMenu ? 25 : 0)
+                    .rotation3DEffect(.init(degrees: showSideMenu ? -15 : 0), axis : (x : 0 , y : 1 , z : 0 ), anchor: .trailing)
+                    .offset(x: showSideMenu ? getScreenBounds().width / 2 : 0)
+                    .ignoresSafeArea()
+            }
         }
+        .environmentObject(profileViewModel)
     }
 }
 

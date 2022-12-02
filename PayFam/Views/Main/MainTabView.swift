@@ -11,6 +11,8 @@ struct MainTabView: View {
     @Binding var currentTab : String
     @Binding var showSideMenu : Bool
     
+    @EnvironmentObject var profileViewModel : ProfileViewModel
+    
 
     var body: some View {
         //MARK: Static header for pages
@@ -25,10 +27,11 @@ struct MainTabView: View {
                     } label: {
                     Image(systemName: "line.3.horizontal")
                             .font(.title2.bold())
-                            .foregroundColor(.black)
+                            .foregroundColor(.primary)
                     }.opacity(showSideMenu ? 0 : 1)
-                    Text("Hello Mattosha")
+                    Text("Hello \(profileViewModel.isLoading ? "..." : profileViewModel.profile.username),".capitalized)
                         .font(.callout)
+                       
                 }
                 Spacer()
                 HStack{
@@ -56,6 +59,7 @@ struct MainTabView: View {
             
             
         }
+        
         .disabled(showSideMenu)
         .frame(maxWidth:.infinity,maxHeight: .infinity)
         .overlay(
@@ -72,9 +76,11 @@ struct MainTabView: View {
                     .padding()
                     .padding(.top)
             },alignment: .topLeading)
-        .background(.white)
+        .background(Color.systemBacground)
     }
 }
+
+
 
 struct MainTabView_Previews: PreviewProvider {
     static var previews: some View {

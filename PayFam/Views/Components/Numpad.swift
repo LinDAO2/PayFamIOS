@@ -36,7 +36,8 @@ struct Numpad: View {
                                 }
                             }
                             
-                                .frame(width: getWidth(frame: reader.frame(in: .global)),height: getHeight(frame: reader.frame(in: .global)))
+                            .frame(width: getWidth(frame: reader.frame(in: .global)),
+                                   height: getHeight(frame: reader.frame(in: .global)))
                                 .background(.white)
                                 .cornerRadius(10)
                         }

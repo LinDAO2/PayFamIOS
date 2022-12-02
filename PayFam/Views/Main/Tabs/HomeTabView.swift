@@ -9,9 +9,21 @@ import SwiftUI
 
 struct HomeTabView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView{
+         
+            HomeBalanceSubView()
+            HomeCarouselSubView()
+            HomeActionsSubView()
+            HomePayFamAgain()
+            HomeTransactions()
+        }
+        .padding(.all,2)
+        .frame(maxWidth: .infinity,maxHeight: .infinity)
+       
+        
     }
 }
+
 
 struct HomeTabView_Previews: PreviewProvider {
     static var previews: some View {
