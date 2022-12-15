@@ -7,6 +7,8 @@
 
 import SwiftUI
 import FirebaseCore
+import FirebaseFirestore
+import FirebaseAuth
 
 @main
 struct PayFamApp: App {

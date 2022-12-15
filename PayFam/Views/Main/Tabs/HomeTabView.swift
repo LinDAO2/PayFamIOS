@@ -15,10 +15,14 @@ struct HomeTabView: View {
             HomeCarouselSubView()
             HomeActionsSubView()
             HomePayFamAgain()
-            HomeTransactions()
+//            HomeTransactions()
         }
         .padding(.all,2)
         .frame(maxWidth: .infinity,maxHeight: .infinity)
+        .onAppear(perform: {
+            NotificationManager.instance.requestAuthorization()
+            UIApplication.shared.applicationIconBadgeNumber = 0
+        })
        
         
     }

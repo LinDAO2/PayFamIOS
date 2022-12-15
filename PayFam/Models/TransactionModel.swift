@@ -7,37 +7,48 @@
 
 import Foundation
 import FirebaseFirestoreSwift
+import FirebaseFirestore
 
-struct TransactionModel :Identifiable, Codable {
-    @DocumentID var id : String?
-    var uid : String  = ""
-    var recieverName: String  = ""
-    var recieverPhonenumber: String  = ""
-    var currency: TransactionCurrency.RawValue
-    var redeemedcurrency: TransactionCurrency.RawValue
-    var amount: Int = 0
-    var redemptionCode: String  = ""
-    var isRedeemed : Bool = false
-    var paymentMethod : TransactionPaymethod.RawValue
-    var senderID: String  = ""
-    var senderName: String  = ""
-    var senderPhonenumber: String  = ""
+struct TransactionModel : Codable {
+    @DocumentID var id: String?
+    let uid : String
+    let recieverName: String
+    let recieverPhonenumber: String
+    let currency:String
+    let redeemedcurrency:String
+    let amount: Int
+    let redemptionCode: String
+    let isRedeemed : Bool
+    let paymentMethod : String
+    let senderID: String
+    let senderName: String
+    let senderPhonenumber: String
+    let momoReferenceId : String?
+    @ServerTimestamp var addedOn : Timestamp?
     
-//    init(){
-//        self.uid = ""
-//        self.recieverName = ""
-//        self.recieverPhonenumber = ""
-//        self.currency = "NGN"
-//        self.redeemedcurrency = "NGN"
-//        self.amount =  0
-//        self.redemptionCode =  ""
-//        self.isRedeemed =  false
-//        self.paymentMethod = "none"
-//        self.senderID = ""
-//        self.senderName = ""
-//        self.senderPhonenumber = ""
-//    }
 }
+
+struct RecipientModel : Codable {
+    @DocumentID var id: String?
+    let uid : String
+    let userId : String
+    let recieverName : String
+    let recieverPhonenumber : String
+    @ServerTimestamp var addedOn : Timestamp?
+ 
+}
+
+struct RecipientInputModel : Codable {
+    @DocumentID var id: String?
+    let uid : String
+    let userId : String
+    let recieverName : String
+    let recieverPhonenumber : String
+    var addedOn : Timestamp
+}
+
+
+
 
 
 enum TransactionCurrency : String{

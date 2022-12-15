@@ -77,14 +77,14 @@ class Web3InteractionViewModel: ObservableObject {
     }
     
     @MainActor
-    func connect(wallet: Wallet) async {
+    func connect(wallet: Wallet) {
         guard let walletConnect = walletConnect else { return }
         let connectionUrl = walletConnect.connect()
         pendingDeepLink = wallet.formWcDeepLink(connectionUrl: connectionUrl)
         currentWallet = wallet
     }
-    
-    func disconnect() {
+    @MainActor
+    func disconnect() async{
         guard let session = session, let walletConnect = walletConnect else { return }
         try? walletConnect.client?.disconnect(from: session)
         withAnimation {
@@ -104,6 +104,10 @@ class Web3InteractionViewModel: ObservableObject {
             }
         }
     }
+    
+    
+    
+    
     
     func sendTx(to: String) {
         guard let session = session,
@@ -139,7 +143,11 @@ class Web3InteractionViewModel: ObservableObject {
         }
     }
     
-    func getTokenName(to: String) {
+    
+    
+    
+    
+    func getTokenName(to: String)async {
         guard let session = session,
               let client = walletConnect?.client,
               let from = walletAccount else {
@@ -164,6 +172,8 @@ class Web3InteractionViewModel: ObservableObject {
             maxFeePerGas: nil
         )
         do {
+        
+            
             
             try client.eth_sendTransaction(url: session.url,
                                            transaction: tx) { [weak self] response in
@@ -176,6 +186,8 @@ class Web3InteractionViewModel: ObservableObject {
             print("error sending tx: \(error)")
         }
     }
+    
+    
     
     
     
@@ -195,6 +207,9 @@ class Web3InteractionViewModel: ObservableObject {
             }
         }
     }
+    
+    
+    
 }
 
 extension Web3InteractionViewModel: WalletConnectDelegate {

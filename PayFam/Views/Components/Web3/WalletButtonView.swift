@@ -36,7 +36,7 @@ struct WalletButtonView: View {
     .padding()
     .background(buttonBackground)
     .foregroundColor(buttonForeground)
-    .cornerRadius(3)
+    .cornerRadius(20)
     .shadow(color: .gray, radius: 5)
   }
 }

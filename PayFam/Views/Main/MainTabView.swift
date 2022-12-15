@@ -34,13 +34,13 @@ struct MainTabView: View {
                        
                 }
                 Spacer()
-                HStack{
-                    Image(systemName: "bell.fill")
-                        .font(.title2)
-                    
-                    Image(systemName: "bookmark.square")
-                        .font(.title2)
-                }
+//                HStack{
+//                    Image(systemName: "bell.fill")
+//                        .font(.title2)
+//                    
+//                    Image(systemName: "bookmark.square")
+//                        .font(.title2)
+//                }
 
             }
             .padding()
@@ -52,14 +52,17 @@ struct MainTabView: View {
             
             TabView (selection: $currentTab){
                 HomeTabView().tag("Home")
-                Text("My Wallet").tag("My Wallet")
-                Text("Transactions").tag("Transactions")
+                MultipleWalletView().tag("My Wallet")
+                TransactionListView().tag("Transactions")
                 Text("Settings").tag("Settings")
             }
             
             
         }
         
+        .onAppear(perform: {
+            
+        })
         .disabled(showSideMenu)
         .frame(maxWidth:.infinity,maxHeight: .infinity)
         .overlay(
@@ -71,7 +74,7 @@ struct MainTabView: View {
             } label: {
             Image(systemName: "xmark")
                     .font(.title2.bold())
-                    .foregroundColor(.black)
+                    .foregroundColor(.primary)
                     .opacity(showSideMenu ? 1 : 0)
                     .padding()
                     .padding(.top)

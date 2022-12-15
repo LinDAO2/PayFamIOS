@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE137AC1293B12590067FF40 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE137AC0293B12590067FF40 /* NotificationsView.swift */; };
+		CE137AC3293B14880067FF40 /* AppLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE137AC2293B14880067FF40 /* AppLogoView.swift */; };
+		CE137AC9293B4D880067FF40 /* MultipleWalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE137AC8293B4D880067FF40 /* MultipleWalletView.swift */; };
+		CE25926B2944B0C500DB07EE /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE25926A2944B0C500DB07EE /* NotificationManager.swift */; };
+		CE25926D2944E97100DB07EE /* RedeemFundsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE25926C2944E97100DB07EE /* RedeemFundsList.swift */; };
+		CE25926F2944ED4800DB07EE /* SentTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE25926E2944ED4800DB07EE /* SentTransactionView.swift */; };
+		CE2592712944EED800DB07EE /* ToRedeemTransactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2592702944EED800DB07EE /* ToRedeemTransactions.swift */; };
+		CE2592732944F01C00DB07EE /* RedeemedTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2592722944F01C00DB07EE /* RedeemedTransactionView.swift */; };
 		CE2A8F7729346DE000338A60 /* PayFamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A8F7629346DE000338A60 /* PayFamApp.swift */; };
 		CE2A8F7929346DE000338A60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A8F7829346DE000338A60 /* ContentView.swift */; };
 		CE2A8F7B29346DE000338A60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2A8F7A29346DE000338A60 /* Assets.xcassets */; };
@@ -34,6 +42,9 @@
 		CE2A8FC1293582E600338A60 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A8FC0293582E600338A60 /* ProfileModel.swift */; };
 		CE2A8FC4293583D600338A60 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A8FC3293583D600338A60 /* ProfileViewModel.swift */; };
 		CE2A8FC62935851500338A60 /* Contants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A8FC52935851500338A60 /* Contants.swift */; };
+		CE5D97FF293B67550048F2AE /* DepositFundsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D97FE293B67550048F2AE /* DepositFundsView.swift */; };
+		CE5D9801293B67750048F2AE /* WalletStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D9800293B67750048F2AE /* WalletStorageView.swift */; };
+		CE5D9806293B91FF0048F2AE /* PaystackRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D9805293B91FF0048F2AE /* PaystackRepository.swift */; };
 		CE93FF3129363CC3007DCCE3 /* SendMoneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE93FF3029363CC3007DCCE3 /* SendMoneyView.swift */; };
 		CE93FF3329363E67007DCCE3 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE93FF3229363E67007DCCE3 /* TransactionModel.swift */; };
 		CE93FF36293651E6007DCCE3 /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = CE93FF35293651E6007DCCE3 /* iPhoneNumberField */; };
@@ -43,14 +54,27 @@
 		CE93FF3F29366366007DCCE3 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = CE93FF3E29366366007DCCE3 /* FirebaseFirestoreCombine-Community */; };
 		CE93FF4129366366007DCCE3 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CE93FF4029366366007DCCE3 /* FirebaseFirestoreSwift */; };
 		CE93FF4329366CE6007DCCE3 /* TransactionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE93FF4229366CE6007DCCE3 /* TransactionListView.swift */; };
+		CEA017F5293FFA5D00266A24 /* TransactionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA017F4293FFA5D00266A24 /* TransactionsViewModel.swift */; };
 		CEB6ECC92937EC9D007F432D /* WalletButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB6ECC82937EC9D007F432D /* WalletButtonView.swift */; };
+		CEB9D0F9294A1EEC002376C1 /* WithdrawFundsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB9D0F8294A1EEB002376C1 /* WithdrawFundsView.swift */; };
+		CEC41369294517D10000FEEC /* PaystackPaymentWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC41368294517D10000FEEC /* PaystackPaymentWebView.swift */; };
 		CED3DD132939452C002696A5 /* WalletConnectSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CED3DD122939452C002696A5 /* WalletConnectSwift */; };
 		CED3DD15293945BD002696A5 /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED3DD14293945BD002696A5 /* Wallet.swift */; };
 		CED3DD182939462D002696A5 /* Web3InteractionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED3DD172939462D002696A5 /* Web3InteractionViewModel.swift */; };
 		CED3DD1A2939467E002696A5 /* WalletConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED3DD192939467E002696A5 /* WalletConnect.swift */; };
+		CED3DD1D293A356B002696A5 /* MobileMoneyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED3DD1C293A356B002696A5 /* MobileMoneyViewModel.swift */; };
+		CEE2FF9B29408C050089DC02 /* RedeemFunds.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2FF9A29408C050089DC02 /* RedeemFunds.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE137AC0293B12590067FF40 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		CE137AC2293B14880067FF40 /* AppLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLogoView.swift; sourceTree = "<group>"; };
+		CE137AC8293B4D880067FF40 /* MultipleWalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleWalletView.swift; sourceTree = "<group>"; };
+		CE25926A2944B0C500DB07EE /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		CE25926C2944E97100DB07EE /* RedeemFundsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedeemFundsList.swift; sourceTree = "<group>"; };
+		CE25926E2944ED4800DB07EE /* SentTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentTransactionView.swift; sourceTree = "<group>"; };
+		CE2592702944EED800DB07EE /* ToRedeemTransactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToRedeemTransactions.swift; sourceTree = "<group>"; };
+		CE2592722944F01C00DB07EE /* RedeemedTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedeemedTransactionView.swift; sourceTree = "<group>"; };
 		CE2A8F7329346DE000338A60 /* PayFam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayFam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2A8F7629346DE000338A60 /* PayFamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayFamApp.swift; sourceTree = "<group>"; };
 		CE2A8F7829346DE000338A60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,13 +103,21 @@
 		CE2A8FC0293582E600338A60 /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
 		CE2A8FC3293583D600338A60 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		CE2A8FC52935851500338A60 /* Contants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contants.swift; sourceTree = "<group>"; };
+		CE5D97FE293B67550048F2AE /* DepositFundsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositFundsView.swift; sourceTree = "<group>"; };
+		CE5D9800293B67750048F2AE /* WalletStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletStorageView.swift; sourceTree = "<group>"; };
+		CE5D9805293B91FF0048F2AE /* PaystackRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaystackRepository.swift; sourceTree = "<group>"; };
 		CE93FF3029363CC3007DCCE3 /* SendMoneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMoneyView.swift; sourceTree = "<group>"; };
 		CE93FF3229363E67007DCCE3 /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
 		CE93FF4229366CE6007DCCE3 /* TransactionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListView.swift; sourceTree = "<group>"; };
+		CEA017F4293FFA5D00266A24 /* TransactionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewModel.swift; sourceTree = "<group>"; };
 		CEB6ECC82937EC9D007F432D /* WalletButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletButtonView.swift; sourceTree = "<group>"; };
+		CEB9D0F8294A1EEB002376C1 /* WithdrawFundsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawFundsView.swift; sourceTree = "<group>"; };
+		CEC41368294517D10000FEEC /* PaystackPaymentWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaystackPaymentWebView.swift; sourceTree = "<group>"; };
 		CED3DD14293945BD002696A5 /* Wallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
 		CED3DD172939462D002696A5 /* Web3InteractionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web3InteractionViewModel.swift; sourceTree = "<group>"; };
 		CED3DD192939467E002696A5 /* WalletConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletConnect.swift; sourceTree = "<group>"; };
+		CED3DD1C293A356B002696A5 /* MobileMoneyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileMoneyViewModel.swift; sourceTree = "<group>"; };
+		CEE2FF9A29408C050089DC02 /* RedeemFunds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedeemFunds.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +140,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE2592692944B0A800DB07EE /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				CE25926A2944B0C500DB07EE /* NotificationManager.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
 		CE2A8F6A29346DE000338A60 = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +199,14 @@
 				CE2A8FA22934B44500338A60 /* Session */,
 				CE2A8F892934791D00338A60 /* Main */,
 				CE93FF3029363CC3007DCCE3 /* SendMoneyView.swift */,
+				CE137AC0293B12590067FF40 /* NotificationsView.swift */,
+				CE137AC8293B4D880067FF40 /* MultipleWalletView.swift */,
+				CE5D97FE293B67550048F2AE /* DepositFundsView.swift */,
+				CE5D9800293B67750048F2AE /* WalletStorageView.swift */,
+				CEE2FF9A29408C050089DC02 /* RedeemFunds.swift */,
+				CE25926C2944E97100DB07EE /* RedeemFundsList.swift */,
+				CEC41368294517D10000FEEC /* PaystackPaymentWebView.swift */,
+				CEB9D0F8294A1EEB002376C1 /* WithdrawFundsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -202,6 +250,10 @@
 		CE2A8FA52934B7B600338A60 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				CE2592692944B0A800DB07EE /* Notifications */,
+				CEA017F3293FFA3D00266A24 /* Transactions */,
+				CE5D9802293B8D010048F2AE /* BankTransfer */,
+				CED3DD1B293A353E002696A5 /* MobileMoney */,
 				CED3DD1629394606002696A5 /* Web3 */,
 				CE2A8FC2293583B600338A60 /* Profile */,
 				CE2A8FA62934B7C700338A60 /* Session */,
@@ -236,6 +288,7 @@
 				CE2A8FB42935613500338A60 /* Home */,
 				CE2A8FAF2934F10C00338A60 /* Numpad.swift */,
 				CE2A8FB22934FE5F00338A60 /* AlertView.swift */,
+				CE137AC2293B14880067FF40 /* AppLogoView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -256,6 +309,9 @@
 			isa = PBXGroup;
 			children = (
 				CE93FF4229366CE6007DCCE3 /* TransactionListView.swift */,
+				CE25926E2944ED4800DB07EE /* SentTransactionView.swift */,
+				CE2592702944EED800DB07EE /* ToRedeemTransactions.swift */,
+				CE2592722944F01C00DB07EE /* RedeemedTransactionView.swift */,
 			);
 			path = Transactions;
 			sourceTree = "<group>";
@@ -266,6 +322,22 @@
 				CE2A8FC3293583D600338A60 /* ProfileViewModel.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		CE5D9802293B8D010048F2AE /* BankTransfer */ = {
+			isa = PBXGroup;
+			children = (
+				CE5D9805293B91FF0048F2AE /* PaystackRepository.swift */,
+			);
+			path = BankTransfer;
+			sourceTree = "<group>";
+		};
+		CEA017F3293FFA3D00266A24 /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				CEA017F4293FFA5D00266A24 /* TransactionsViewModel.swift */,
+			);
+			path = Transactions;
 			sourceTree = "<group>";
 		};
 		CEB6ECC72937EC89007F432D /* Web3 */ = {
@@ -283,6 +355,14 @@
 				CED3DD192939467E002696A5 /* WalletConnect.swift */,
 			);
 			path = Web3;
+			sourceTree = "<group>";
+		};
+		CED3DD1B293A353E002696A5 /* MobileMoney */ = {
+			isa = PBXGroup;
+			children = (
+				CED3DD1C293A356B002696A5 /* MobileMoneyViewModel.swift */,
+			);
+			path = MobileMoney;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -403,30 +483,46 @@
 				CED3DD15293945BD002696A5 /* Wallet.swift in Sources */,
 				CE2A8FAD2934D24800338A60 /* Countries.swift in Sources */,
 				CE2A8F8F293480E300338A60 /* Extensions.swift in Sources */,
+				CE5D9806293B91FF0048F2AE /* PaystackRepository.swift in Sources */,
 				CE2A8FBA2935620200338A60 /* HomeActionsSubView.swift in Sources */,
+				CE137AC3293B14880067FF40 /* AppLogoView.swift in Sources */,
+				CEE2FF9B29408C050089DC02 /* RedeemFunds.swift in Sources */,
 				CE2A8F7929346DE000338A60 /* ContentView.swift in Sources */,
+				CEC41369294517D10000FEEC /* PaystackPaymentWebView.swift in Sources */,
+				CE5D9801293B67750048F2AE /* WalletStorageView.swift in Sources */,
 				CEB6ECC92937EC9D007F432D /* WalletButtonView.swift in Sources */,
 				CE93FF3329363E67007DCCE3 /* TransactionModel.swift in Sources */,
 				CE2A8FB8293561A900338A60 /* HomeCarouselSubView.swift in Sources */,
 				CE2A8FB62935615700338A60 /* HomeBalanceSubView.swift in Sources */,
 				CE2A8F8B2934793C00338A60 /* MainView.swift in Sources */,
 				CE2A8FB02934F10C00338A60 /* Numpad.swift in Sources */,
+				CE137AC1293B12590067FF40 /* NotificationsView.swift in Sources */,
+				CE2592712944EED800DB07EE /* ToRedeemTransactions.swift in Sources */,
 				CE2A8FBC2935624500338A60 /* HomePayFamAgain.swift in Sources */,
+				CEB9D0F9294A1EEC002376C1 /* WithdrawFundsView.swift in Sources */,
 				CE2A8FC1293582E600338A60 /* ProfileModel.swift in Sources */,
 				CE2A8FBE2935628C00338A60 /* HomeTransactions.swift in Sources */,
 				CE2A8F8D2934796100338A60 /* SideMenuView.swift in Sources */,
+				CEA017F5293FFA5D00266A24 /* TransactionsViewModel.swift in Sources */,
 				CE2A8F9A29349F8100338A60 /* HomeTabView.swift in Sources */,
 				CE2A8FAA2934BA3700338A60 /* VerificationView.swift in Sources */,
 				CED3DD1A2939467E002696A5 /* WalletConnect.swift in Sources */,
 				CE2A8FC4293583D600338A60 /* ProfileViewModel.swift in Sources */,
+				CED3DD1D293A356B002696A5 /* MobileMoneyViewModel.swift in Sources */,
+				CE137AC9293B4D880067FF40 /* MultipleWalletView.swift in Sources */,
 				CE2A8FB32934FE5F00338A60 /* AlertView.swift in Sources */,
 				CE93FF4329366CE6007DCCE3 /* TransactionListView.swift in Sources */,
 				CE2A8F7729346DE000338A60 /* PayFamApp.swift in Sources */,
 				CE93FF3129363CC3007DCCE3 /* SendMoneyView.swift in Sources */,
+				CE25926F2944ED4800DB07EE /* SentTransactionView.swift in Sources */,
+				CE5D97FF293B67550048F2AE /* DepositFundsView.swift in Sources */,
 				CE2A8FC62935851500338A60 /* Contants.swift in Sources */,
 				CE2A8FA42934B45B00338A60 /* LoginView.swift in Sources */,
+				CE25926B2944B0C500DB07EE /* NotificationManager.swift in Sources */,
 				CED3DD182939462D002696A5 /* Web3InteractionViewModel.swift in Sources */,
+				CE2592732944F01C00DB07EE /* RedeemedTransactionView.swift in Sources */,
 				CE2A8F972934909400338A60 /* MainTabView.swift in Sources */,
+				CE25926D2944E97100DB07EE /* RedeemFundsList.swift in Sources */,
 				CE2A8FA82934B7E400338A60 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -569,6 +665,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -603,6 +700,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

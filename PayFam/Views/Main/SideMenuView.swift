@@ -17,26 +17,31 @@ struct SideMenuView: View {
     
     var body: some View {
         VStack{
-            VStack(spacing:10){
-                AsyncImage(url: URL(string: "https://avatars.dicebear.com/api/pixel-art/\(username).png")) { resImage in
-                    resImage
-                        .resizable()
-                        .aspectRatio(contentMode: .fill)
-                        .frame(width:45,height:45)
-                        .clipShape(Circle())
-                } placeholder: {
-                    ProgressView()
-                }
-
-                Text("@\(username)")
-                    .font(.headline)
-            }
-            .padding()
-            .frame(maxWidth:.infinity,alignment: .leading)
+           
             
             ScrollView(getScreenBounds().height < 750 ? .vertical : .init() ){
                 //MARK: Tab buttons
-                VStack(alignment: .leading, spacing: 25){
+                VStack(alignment: .leading, spacing: 5){
+                    AppLogoView(size: .xsmall)
+                        .padding(.all,5)
+                        .background(Color.white)
+                        .clipShape(Circle())
+                    VStack(spacing:10){
+                        AsyncImage(url: URL(string: "https://avatars.dicebear.com/api/pixel-art/\(username).png")) { resImage in
+                            resImage
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+                                .frame(width:70,height:70)
+                                .clipShape(Circle())
+                        } placeholder: {
+                            ProgressView()
+                        }
+
+                        Text("@\(username)")
+                            .font(.headline)
+                            .foregroundColor(.white)
+                    }
+                    .padding()
                     CustomTabButton(icon: "house.fill", title: "Home")
                     CustomTabButton( title: "My Wallet",useSystemName: false,FontText: FontIcon.text(.awesome5Solid(code: .wallet)))
                     CustomTabButton(title: "Transactions",useSystemName: false,FontText: FontIcon.text(.materialIcon(code: .receipt)))
@@ -80,38 +85,34 @@ struct SideMenuView: View {
                 if useSystemName {
                     Image(systemName: icon)
                         .font(.title3)
+                        .padding(.leading,3)
                         .frame(width: currentTab == title ? 48 : nil,height:48)
-                        .foregroundColor(currentTab == title ? Color.primaryBrandColor: (title == "Logout" ? .orange : Color.primaryBrandColor))
-                        .background(
-                            Color.white.clipShape(Circle())
-                        )
+                        .foregroundColor(currentTab == title ? .white : title == "Logout" ? .red.opacity(0.5) : .white)
+                        
                 }else{
                     FontText
                         .font(.title3)
                         .frame(width: 48,height:48)
-                        .foregroundColor(Color.primaryBrandColor)
-                        .background(
-                            ZStack{
-                                if currentTab == title {
-                                    Color.white.clipShape(Circle())
-                                }
-                            }
-                        )
+                        .foregroundColor(currentTab == title ? .white : title == "Logout" ? .red.opacity(0.5) : .white)
+                        
                 }
               
                 
                 Text(title)
                     .font(.callout)
                     .fontWeight(.semibold)
-                    .foregroundColor(currentTab == title ? .white : title == "Logout" ? .orange : .primaryBrandColor)
+                    .foregroundColor(currentTab == title ? .white : title == "Logout" ? .red.opacity(0.5) : .white)
+                
+                Spacer()
                     
                 
             }
             .padding(.trailing,18)
+            .frame(width: 200)
             .background(
                 ZStack{
                     if currentTab  == title {
-                        Color.primaryBrandColor.clipShape(Capsule())
+                        Color.primaryBrandColor.clipShape(RoundedRectangle(cornerRadius: 10))
                     }
                 })
            

@@ -8,39 +8,46 @@
 import Foundation
 import FirebaseFirestoreSwift
 
-struct ProfileModel : Identifiable, Codable  {
+struct ProfileModel : Codable  {
     @DocumentID var id: String?
-    var uid: String = ""
-    var username : String = ""
-    var firstName : String = ""
-    var lastName : String = ""
-    var email : String? = ""
-    var country : String? = ""
-    var phoneNumber: String = ""
-    var query: [String]?  = []
+    var uid: String
+    var username : String
+    var firstName : String
+    var lastName : String
+    var email : String?
+    var country : String?
+    var phoneNumber: String
+    var query: [String]?
     var persona : ProfilePersona.RawValue?
     var status : ProfileStatus.RawValue?
     var wallets : [ProfileWallet]?
-    
-    init() {
-        self.uid = ""
-        self.username = ""
-        self.firstName = ""
-        self.lastName = ""
-        self.email = ""
-        self.country =  ""
-        self.query  = []
-        self.persona = "customer"
-        self.status = "active"
-        
-    }
+    var momoPhoneNumber : String?
+    var bankAccount : ProfilePaystackBankAccount?
+    var usdtBalance : Double?
+    var ghsBalance : Double?
+    var ngnBalance : Double?
     
 }
 
-struct ProfileWallet : Codable, Hashable {
-    var name :String
-    var balance : Int
+struct ProfileWallet : Codable {
+    let name :String
+    let balance : Int
     
+}
+
+
+
+
+struct ProfilePaystackBankAccount : Codable {
+    let paystack :ProfilePaystackBankAccountData
+}
+struct ProfilePaystackBankAccountData : Codable {
+    let   accountName : String
+    let   accountNumber: String
+    let   bankCode : String
+    let   bankName : String
+    let   psrecieptCode : String
+
 }
 
 enum ProfilePersona : String {

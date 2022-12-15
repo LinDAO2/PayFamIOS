@@ -13,7 +13,7 @@ struct HomeActionsSubView: View {
         VStack{
             HStack{
                 NavigationLink {
-                    SendMoneyView()
+                    SendMoneyView(paymentMethod: .none, activeStep: 0, paymentMethodTitle: "")
                 } label: {
                     HStack{
                         Image(systemName: "arrow.up.to.line")
@@ -35,7 +35,7 @@ struct HomeActionsSubView: View {
                 
                 Spacer()
                 NavigationLink {
-                   
+                    RedeemFundsList()
                 } label: {
                     HStack{
                         Image(systemName: "arrow.down.to.line")
@@ -117,6 +117,7 @@ struct HomeActionsSubView: View {
 }
 
 struct HomeActionsSubView_Previews: PreviewProvider {
+    @available(iOS 16.0, *)
     static var previews: some View {
         HomeActionsSubView()
     }
